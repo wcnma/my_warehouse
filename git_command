@@ -12,3 +12,16 @@ git add "file name"
 
 #commit file to warehouse
 git commit -m "commit massage"
+
+#show history record
+#current status fo git warehouse
+git log
+
+#return pre-edition
+git reset --hard [HEAD^|HEAD^^|HEAD~number]
+
+#go to [commit id] edition(future)
+git reset --hard [commit id]
+
+#same as command in Linux
+git reflog

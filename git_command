@@ -7,10 +7,10 @@ cd "dir name"
 #git initialization, change current dir to git warehouse 
 git init
 
-#add file to git warehouse
+#add file to git Stage
 git add "file name"
 
-#commit file to warehouse
+#commit file to Branch
 git commit -m "commit massage"
 
 #show history record
@@ -29,3 +29,6 @@ git reset --hard [commit id]
 
 #same as command in Linux
 git reflog
+
+#show git status
+git status

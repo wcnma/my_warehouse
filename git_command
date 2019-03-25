@@ -1,0 +1,14 @@
+#create parent dir
+mkdir "dir name"
+
+#enter parent dir
+cd "dir name"
+
+#git initialization, change current dir to git warehouse 
+git init
+
+#add file to git warehouse
+git add "file name"
+
+#commit file to warehouse
+git commit -m "commit massage"

@@ -17,6 +17,10 @@ git commit -m "commit massage"
 #current status fo git warehouse
 git log
 
+#show history record simpacy
+#current status fo git warehouse simpacy
+git log --pretty=oneline
+
 #return pre-edition
 git reset --hard [HEAD^|HEAD^^|HEAD~number]
 
